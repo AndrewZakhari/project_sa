@@ -1,6 +1,42 @@
-.env 
-
-__pycache__
-
-
+# General
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Flask
+instance/
+.webassets-cache
+flask_session/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+output.log
+
+# Testing and Coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
